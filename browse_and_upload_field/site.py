@@ -4,7 +4,7 @@ import re
 
 from django.urls import reverse
 from django.http import HttpResponse, HttpResponseBadRequest
-from django.utils.encoding import smart_text
+from django.utils.encoding import smart_str as smart_text
 
 from filebrowser import signals
 from filebrowser.base import FileObject
