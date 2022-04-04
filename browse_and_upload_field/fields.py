@@ -15,7 +15,7 @@ from django.db.models.fields import CharField
 from django import forms
 from django.forms.widgets import Input
 from django.template.loader import render_to_string
-from django.utils.encoding import smart_text
+from django.utils.encoding import smart_str as smart_text
 from django.utils.six import with_metaclass
 from django.utils.translation import ugettext_lazy as _
 from django.contrib.admin.templatetags.admin_static import static
