@@ -18,7 +18,7 @@ from django.template.loader import render_to_string
 from django.utils.encoding import smart_str as smart_text
 from django.utils.six import with_metaclass
 from django.utils.translation import gettext_lazy as _
-from django.contrib.admin.templatetags.admin_static import static
+from django.templatetags.static import static
 from django.contrib.admin.options import FORMFIELD_FOR_DBFIELD_DEFAULTS
 
 # FILEBROWSER IMPORTS
